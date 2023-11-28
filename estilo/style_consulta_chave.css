@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 120px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right,#339945,#0e7421, #025612);
+    box-shadow: 0px 40px #025612;
+}
+  
+img {
+    padding-top: 10px;
+}
+
+h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 250px;
+    color: #339b46;
+}
+
+div.titulo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    max-width: 860px;
+    min-width: 460px;
+}
+
+#barra_pesquisa {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    box-shadow: 1px;
+}
+
+tr {
+    height: 30px;
+    border-radius: 35px;
+}
+
+th {
+    width: auto;
+    background-color: #33a047;
+}
+
+td {
+    background-color: #e9e9e9;
+    width: auto;
+    text-align: center;
+}
+
+.pessoa {
+    min-width: 120px;
+}
+
+.nome {
+    max-width: 120px;
+    text-wrap: wrap;
+}
+
+td.cinza {
+    background-color: #eeeeee !important;
+}
+
+td.verde {
+    background-color: #3bbb52 !important;
+}
+
+@media (min-width: 580px) and (max-width: 700px) {
+    table {
+        font-size: 0.8em;
+    }
+
+    tr {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 532px) and (max-width: 579px) {
+    table {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 531px) {
+    table {
+        font-size: 0.6em;
+    }
+}
